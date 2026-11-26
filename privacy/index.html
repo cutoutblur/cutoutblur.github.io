@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Photo Editor Privacy Policy</title>
+<meta name="description" content="Privacy Policy for the Photo Editor: Cutout &amp; Blur Android app.">
+<style>
+  :root {
+    --brand: #FF5A7A;
+    --brand-dark: #D93D60;
+    --text: #1A1F36;
+    --muted: #5B6478;
+    --bg: #F3F6FA;
+    --card: #FFFFFF;
+    --border: #E3E8EF;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --text: #F4F1EA;
+      --muted: #9AA3AD;
+      --bg: #121417;
+      --card: #1C2128;
+      --border: #2A313A;
+    }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--text);
+    font: 16px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  header {
+    background: linear-gradient(135deg, var(--brand), var(--brand-dark));
+    color: #fff;
+    padding: 40px 16px 32px;
+  }
+  .wrap { max-width: 760px; margin: 0 auto; }
+  .brand { display: flex; align-items: center; gap: 12px; font-weight: 700; font-size: 18px; }
+  .logo {
+    width: 40px; height: 40px; border-radius: 10px; background: rgba(255,255,255,.18);
+    display: grid; place-items: center;
+  }
+  h1 { margin: 20px 0 4px; font-size: 30px; line-height: 1.25; }
+  .meta { opacity: .9; font-size: 14px; }
+  main { padding: 24px 16px 48px; }
+  .card {
+    background: var(--card); border: 1px solid var(--border); border-radius: 16px;
+    padding: 8px 24px 24px;
+  }
+  h2 { font-size: 20px; margin: 28px 0 8px; }
+  p, li { color: var(--text); }
+  .muted { color: var(--muted); }
+  ul { padding-left: 22px; }
+  li { margin: 4px 0; }
+  a { color: var(--brand-dark); }
+  @media (prefers-color-scheme: dark) { a { color: var(--brand); } }
+  .summary {
+    border-left: 4px solid var(--brand); background: color-mix(in srgb, var(--brand) 10%, transparent);
+    border-radius: 8px; padding: 12px 16px; margin-top: 20px;
+  }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 8px 10px; border-bottom: 1px solid var(--border); }
+  th { color: var(--muted); font-weight: 600; }
+  .table-wrap { overflow-x: auto; }
+  footer { text-align: center; font-size: 13px; color: var(--muted); padding: 0 16px 32px; }
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo" aria-hidden="true">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="9" cy="9" r="2"/><path d="m21 15-4.5-4.5L6 21"/></svg>
+      </div>
+      Photo Editor
+    </div>
+    <h1>Privacy Policy</h1>
+    <div class="meta">Effective date: November 26, 2026 · Last updated: November 26, 2026</div>
+  </div>
+</header>
+
+<main>
+  <div class="wrap card">
+    <div class="summary">
+      In short: Photo Editor edits your photos on your device. Your photos, edited images and face data never leave
+      your phone. The app has no accounts, shows no ads and does not track you. The only data that leaves the device is
+      limited technical diagnostics sent to Google by the on-device ML Kit library, as described in Section 4.
+    </div>
+
+    <h2>1. Who we are</h2>
+    <p>
+      This Privacy Policy explains how the Photo Editor: Cutout &amp; Blur Android app (“Photo Editor”, “the app”,
+      “we”, “us”) handles information. It applies to the app distributed on Google Play under the package name
+      <code>app.cutoutblur.editor</code>. By using the app you agree to this Policy.
+    </p>
+
+    <h2>2. What the app does on your device</h2>
+    <p>
+      Photo Editor lets you enhance photos, cut out a person, blur the background, smooth skin, crop, rotate, apply
+      filters and adjustments, add text, and create collages, long or wide stitched images, free-form layouts and
+      template designs from your photos.
+    </p>
+    <ul>
+      <li><strong>Only the photos you pick.</strong> You choose photos in Android’s system photo picker. The app can
+        read only the photos you select and does not ask for permission to access your whole photo library.</li>
+      <li><strong>All editing happens locally.</strong> Every edit is processed on your device. We do not upload your
+        photos, edited images or thumbnails, and we do not operate servers that receive them.</li>
+      <li><strong>Face and body processing stays on the device.</strong> Person cutout, background blur and skin
+        smoothing use Google ML Kit on your device to find the outline of a person and the position of a face in the
+        photo you are editing. These results are used only to apply the edit you asked for. They are not stored after
+        the edit, are not used to identify anyone, and never leave your device.</li>
+      <li><strong>Saved images stay with you.</strong> Images you save go to your device’s gallery
+        (Pictures/Photo Editor). The app also keeps small thumbnails and a list of recently saved images in its
+        private storage so it can show them under “My Artworks”.</li>
+    </ul>
+
+    <h2>3. Permissions we request</h2>
+    <div class="table-wrap">
+      <table>
+        <tr><th>Permission</th><th>Why we need it</th></tr>
+        <tr>
+          <td>Photos you select<br><span class="muted">(granted in Android’s system photo picker; the app requests no
+            storage or media permission)</span></td>
+          <td>To open the photos you choose for editing. Access is limited to the photos you pick.</td>
+        </tr>
+        <tr>
+          <td>Internet</td>
+          <td>So Google Play services can download the ML Kit models used for cutout, blur and smoothing, and so ML Kit
+            can send the diagnostics described in Section 4. Your photos are never uploaded.</td>
+        </tr>
+      </table>
+    </div>
+    <p class="muted">
+      The app does not request access to your contacts, camera, microphone, location, call logs, SMS or advertising ID.
+    </p>
+
+    <h2>4. Information collected by Google ML Kit</h2>
+    <p>
+      The app uses <strong>Google ML Kit</strong> for on-device face detection and selfie segmentation. According to
+      Google, ML Kit may send limited technical data to Google for diagnostics and usage analytics of the ML Kit
+      service, such as:
+    </p>
+    <ul>
+      <li>Device information (for example manufacturer, model and operating system version) and app information
+        (package name and app version)</li>
+      <li>Device or other identifiers used for diagnostics</li>
+      <li>Performance metrics, API configuration, input and output sizes, feature version, event type and error
+        codes</li>
+    </ul>
+    <p>
+      This data does not include your photos or face data. Google states that ML Kit encrypts this data in transit
+      (HTTPS) and does not transfer it to third parties. When you first use cutout, blur or smoothing, Google Play
+      services may also download the required model to your device. This collection is governed by Google’s policies:
+    </p>
+    <ul>
+      <li><a href="https://developers.google.com/ml-kit/android-data-disclosure">ML Kit data disclosure</a></li>
+      <li><a href="https://policies.google.com/privacy">Google Privacy Policy</a></li>
+    </ul>
+
+    <h2>5. Information we collect ourselves</h2>
+    <p>
+      We do not collect any personal information through the app. There is no account, sign-in or registration, no
+      advertising, no advertising ID, and no analytics, crash reporting or tracking of our own. We do not sell or share
+      personal information.
+    </p>
+    <p>
+      If you contact us by email (for example via “Feedback” in the app), we will receive your email address and the
+      content of your message. We use it only to respond to you and keep it only as long as needed for that purpose.
+    </p>
+    <p>
+      If you tap “Share With Friends”, Android’s share sheet opens with a short text, and you decide which app, if any,
+      receives it.
+    </p>
+    <p>
+      The app stores a few things locally on your device, such as the thumbnails and the list of recently saved images
+      mentioned in Section 2. This data stays on your device and is deleted when you clear the app’s data or uninstall
+      the app.
+    </p>
+
+    <h2>6. Users in the EEA, UK and Switzerland</h2>
+    <p>
+      Depending on where you live, you may have the right to access, correct, delete or restrict the processing of your
+      personal data, to object to processing, to data portability, and to lodge a complaint with your local data
+      protection authority. We do not hold personal data about you on our own systems, except emails you choose to send
+      us; to make a request about those, contact us (Section 11). Requests about the diagnostics collected by ML Kit
+      should be directed to Google; we are happy to help you with that.
+    </p>
+
+    <h2>7. Users in the United States</h2>
+    <p>
+      We do not sell or share personal information, including for targeted advertising, as those terms are defined
+      under US state laws such as the California Consumer Privacy Act.
+    </p>
+
+    <h2>8. Children’s privacy</h2>
+    <p>
+      Photo Editor is not directed to children under 13 (or under 16 in the EEA and UK), and we do not knowingly collect
+      personal information from children. If you believe a child has provided us with personal information, please
+      contact us and we will delete it.
+    </p>
+
+    <h2>9. Data retention and security</h2>
+    <p>
+      Since your photos and edits never leave your device, we do not retain them. Images you save remain in your gallery
+      until you delete them. Diagnostics collected by ML Kit are retained according to Google’s policies. We take
+      reasonable measures to protect the limited information we handle, such as feedback emails, but no method of
+      transmission or storage is completely secure.
+    </p>
+
+    <h2>10. Changes to this Policy</h2>
+    <p>
+      We may update this Policy from time to time, for example when we add features or new services. We will post the
+      updated version on this page and change the “Last updated” date above. Significant changes will also be noted in
+      the app or on its Google Play page.
+    </p>
+
+    <h2>11. Contact us</h2>
+    <p>
+      If you have questions about this Policy or want to exercise your privacy rights, contact us at
+      <a href="mailto:sk01022897466@gmail.com">sk01022897466@gmail.com</a>.
+    </p>
+  </div>
+</main>
+
+<footer>© 2026 Photo Editor</footer>
+</body>
+</html>
